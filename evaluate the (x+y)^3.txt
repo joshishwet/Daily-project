@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main ()
+{
+    int x, y,result;
+    
+    printf("\nenter the value of x:");
+    scanf("%d", & x);
+    
+    printf("\nenter the value of y:");
+    scanf("%d", & y);
+    
+    result= (x+y)*(x+y)*(x+y);
+    
+    printf("the result is:%d \n ", result);
+}
